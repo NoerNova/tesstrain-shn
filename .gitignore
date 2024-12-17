@@ -2,3 +2,8 @@
 *.built
 *.BAK
 *~
+
+shan-datasets
+shan-datasets/*
+data
+data/*
