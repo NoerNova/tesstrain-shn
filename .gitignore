@@ -1,9 +1,19 @@
-/data/
 *.built
 *.BAK
 *~
 
-shan-datasets
-shan-datasets/*
-data
-data/*
+data/langdata
+data/langdata/*
+data/shn
+data/shn/*
+data/shn-ground-truth
+data/shn-ground-truth/*
+data/*.traineddata
+data/*.tif
+
+shan-datasets/__pycache__
+shan-datasets/__pycache__/*
+shan-datasets/kawtai-dataset
+shan-datasets/kawtai-dataset/*
+shan-datasets/output
+shan-datasets/output/*
