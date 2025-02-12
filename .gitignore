@@ -24,3 +24,4 @@ data/*ground-truth/*
 testimage*
 extracted_chars.txt
 unicharset_chars.txt
+output_text.txt
