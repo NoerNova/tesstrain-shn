@@ -17,3 +17,10 @@ shan-datasets/kawtai-dataset
 shan-datasets/kawtai-dataset/*
 shan-datasets/output
 shan-datasets/output/*
+
+data/*-ground-truth
+data/*ground-truth/*
+
+testimage*
+extracted_chars.txt
+unicharset_chars.txt
