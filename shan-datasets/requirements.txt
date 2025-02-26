@@ -1,2 +1,4 @@
 datasets
 python-docx
+git+https://github.com/noernova/shannlp.git
+jupyter
