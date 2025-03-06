@@ -17,6 +17,8 @@ shan-datasets/kawtai-dataset
 shan-datasets/kawtai-dataset/*
 shan-datasets/output
 shan-datasets/output/*
+shan-datasets/fonts.conf
+shan-datasets/shannews.txt
 
 data/*-ground-truth
 data/*ground-truth/*
