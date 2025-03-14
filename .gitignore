@@ -10,6 +10,7 @@ data/shn-ground-truth
 data/shn-ground-truth/*
 data/*.traineddata
 data/*.tif
+data/demo/*
 
 shan-datasets/__pycache__
 shan-datasets/__pycache__/*
