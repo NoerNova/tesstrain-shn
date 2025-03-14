@@ -10,7 +10,7 @@ WORDLIST_FILE="$TESSTRAIN_REPO/data/shn.wordlist.txt"
 NUMBERS_FILE="$TESSTRAIN_REPO/data/shn.numbers.txt"
 PUNC_FILE="$TESSTRAIN_REPO/data/shn.punc.txt"
 MAX_ITERATIONS=200000
-LEARNING_RATE=0.0005
+LEARNING_RATE=0.001
 
 # Create the training directory
 rm -rf "$DATA_DIR/$MODEL_NAME"
@@ -27,4 +27,5 @@ make training \
     PUNC_FILE=$PUNC_FILE \
     NET_SPEC="[1,36,0,1 Ct3,3,32 Mp3,3 Lfys64 Lfx128 Lrx128 Lfx512 O1c###]" \
     MAX_ITERATIONS=$MAX_ITERATIONS \
-    LEARNING_RATE=$LEARNING_RATE
+    LEARNING_RATE=$LEARNING_RATE \
+    PSM=6
