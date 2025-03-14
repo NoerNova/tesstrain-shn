@@ -9,11 +9,22 @@ for tif_file in "$DIR"/*.tif; do
 
     base_name="${tif_file%.tif}"
 
+    # no .gt.txt file then delete image and box files.
     if [ ! -f "$base_name.gt.txt" ]; then
         echo "Deleting $tif_file (no matching .gt.txt found)"
         rm -f "$tif_file"
+        echo "Deleting $base_name.box (no matching .gt.txt found)"
+        rm -f "$base_name.box"
 
         ((deleted_count++))
+    fi
+
+    # no .box file then delete image and .gt.txt files.
+    if [ ! -f "$base_name.box" ]; then
+        echo "Deleting $base_name.gt.txt (no matching .box found)"
+        rm -f "$base_name.gt.txt"
+        echo "Deleting $tif_file (no matching .box found)"
+        rm -f "$tif_file"
     fi
 done
 
