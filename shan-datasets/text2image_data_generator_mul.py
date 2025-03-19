@@ -107,7 +107,7 @@ def main():
     text2img_data_generator(
         training_text_file='./shannews.txt',
         output_directory="../data/shn-ground-truth",
-        fonts_dir='/home/noernova/Desktop/Labs/tesstrain/shan-datasets/fonts',
+        fonts_dir='/home/noernova/Labs/tesstrain/shan-datasets/fonts',
         count=300000
     )
 
