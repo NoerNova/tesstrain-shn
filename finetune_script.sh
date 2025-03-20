@@ -10,7 +10,7 @@ TESSDATA_PREFIX="/usr/local/share/tessdata"
 WORDLIST_FILE="$TESSTRAIN_REPO/data/shn.wordlist.txt"
 NUMBERS_FILE="$TESSTRAIN_REPO/data/shn.numbers.txt"
 PUNC_FILE="$TESSTRAIN_REPO/data/shn.punc.txt"
-MAX_ITERATIONS=200000
+MAX_ITERATIONS=600000
 LEARNING_RATE=0.00005
 
 # Create the training directory
@@ -31,4 +31,5 @@ make training \
     NET_SPEC="[1,0,0,1 Ct3,3,32 Mp3,3 Lfys64 Lfx128 Lrx128 Lfx512 O1c###]" \
     MAX_ITERATIONS=$MAX_ITERATIONS \
     LEARNING_RATE=$LEARNING_RATE \
-    PSM=7
+    FINETUNE_TYPE=Impact \
+    PSM=6
