@@ -1,6 +1,7 @@
 *.built
 *.BAK
 *~
+fonts.conf
 
 data/langdata
 data/langdata/*
@@ -26,6 +27,7 @@ shan-datasets/novel.txt
 
 data/*-ground-truth
 data/*ground-truth/*
+data/fonts.conf
 
 testimage*
 extracted_chars.txt
