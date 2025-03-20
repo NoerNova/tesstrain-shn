@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CHECKPOINT="shn_0.064_10015_103100"
+CHECKPOINT="shn_0.034_17056_285400"
 
 lstmtraining --stop_training --continue_from data/shn/checkpoints/$CHECKPOINT.checkpoint --traineddata data/shn/shn.traineddata --model_output data/shn.traineddata
 sudo cp data/shn.traineddata /usr/local/share/tessdata/

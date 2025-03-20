@@ -22,6 +22,7 @@ shan-datasets/fonts.conf
 shan-datasets/shannews.txt
 shan-datasets/shrf.txt
 shan-datasets/taifreedom.txt
+shan-datasets/novel.txt
 
 data/*-ground-truth
 data/*ground-truth/*
