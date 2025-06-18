@@ -33,3 +33,5 @@ testimage*
 extracted_chars.txt
 unicharset_chars.txt
 output_text.txt
+
+.DS_Store
